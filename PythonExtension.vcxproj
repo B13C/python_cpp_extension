@@ -81,6 +81,7 @@
     <TargetName>PythonExtension</TargetName>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(PYTHON_INCLUDE)</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(PYTHON_LIB)</LibraryPath>
+    <SourcePath>$(VC_SourcePath);$(PYTHON_HOME)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
